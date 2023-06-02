@@ -1,0 +1,16 @@
+www.baidu.com:
+    certfile: www.baidu.com.crt
+    certkey: www.baidu.com.key
+    destaddr: 127.0.0.1:8080
+    protocol: https
+    responsebody: <h1>hello baidu</h1>
+    responsecode: "200"
+    srcaddr: www.baidu.com:443
+www.qq.com:
+    certfile: www.qq.com.crt
+    certkey: www.qq.com.key
+    destaddr: 127.0.0.1:8080
+    protocol: https
+    responsebody: hello qq
+    responsecode: "200"
+    srcaddr: www.qq.com:443
