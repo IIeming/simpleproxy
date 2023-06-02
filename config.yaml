@@ -1,8 +1,0 @@
-www.baidu.com:
-  certfile: www.baidu.com.crt
-  certkey: www.baidu.com.key
-  destaddr: localhost:801
-  protocol: https
-  responsebody: hello world
-  responsecode: "200"
-  srcaddr: www.baidu.com:443
